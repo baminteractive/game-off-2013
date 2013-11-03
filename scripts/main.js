@@ -65,6 +65,7 @@ function create() {
     //Adding enemy group
     enemies = game.add.group();
     var flyingSkull = new FlyingSkull(game);
+    flyingSkull.setCoords(500,100);
     enemies.add(flyingSkull);
 
     //Make sure that layers aren't locked to the camera as gui layers
