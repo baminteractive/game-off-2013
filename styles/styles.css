@@ -1,0 +1,74 @@
+body.dark {
+	background:#333333;
+}
+
+body.light {
+	background:#F9FADE;
+}
+
+body {
+	font-family:helvetica, sans-serif;
+}
+
+h1 {
+	font-size:52px;
+}
+
+#main {
+	width:700px;
+	margin:0 auto;
+	position:relative;
+}
+
+#idea {
+	margin-top:20px;
+}
+
+#gamerate_button {
+	font-size:20px;
+}
+
+.element {
+	transition:background-color .5s ease-in;
+	-webkit-transition:background-color .5s;
+  	-webkit-border-radius: 10px;
+  	border-radius: 3px;
+  	padding:2px 2px;
+  	font-weight:bold;
+  	cursor:pointer;
+}
+
+#visuals {
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	margin-top:20px;
+}
+
+#visuals img {
+	max-width:400px;
+}
+
+#styles.element:hover {
+	background-color: rgba(215, 44, 44, 0.6);
+}
+
+#gimmicks.element:hover {
+	background-color: rgba(127, 147, 44, 0.6);
+}
+
+#themes.element:hover {
+	background-color: rgba(127, 147, 172, 0.6);
+}
+
+#environments.element:hover {
+	background-color: rgba(28, 76, 172, 0.6);
+}
+
+#mechanics.element:hover {
+	background-color: rgba(28, 76, 37, 0.6);
+}
+
+#elements.element:hover {
+	background-color: rgba(224, 94, 75, 0.6);
+}
